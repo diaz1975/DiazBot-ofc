@@ -22,11 +22,11 @@ const rl = createInterface(process.stdin, process.stdout)
 //const app = express()
 //const port = process.env.PORT || 8080;
 
-say('Katashi\nBot\nMD', {
+say('Diaz\nBot\nV3', {
 font: 'chrome',
 align: 'center',
 gradient: ['red', 'magenta']})
-say(`Por KatashiFukushima`, {
+say(`Por Diaz Mod`, {
 font: 'console',
 align: 'center',
 gradient: ['red', 'magenta']})
@@ -89,7 +89,7 @@ console.log(chalk.yellow(`╭${lineM}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`💚 Nombre: ${packageJsonObj.name}`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`❇️ Versión: ${packageJsonObj.version}`)}
 ┊${chalk.blueBright('┊')}${chalk.cyan(`📌 Descripción: ${packageJsonObj.description}`)}
-┊${chalk.blueBright('┊')}${chalk.cyan(`🥷 Project Author: ${packageJsonObj.author.name} (@katashi_fukushima)`)}
+┊${chalk.blueBright('┊')}${chalk.cyan(`🥷 Project Author: ${packageJsonObj.author.name} (@Whoisdiax.d)`)}
 ┊${chalk.blueBright('┊')}${chalk.blueBright('┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅')} 
 ┊${chalk.blueBright('┊')}${chalk.yellow(`🌟 Colaboradores:`)}
 ┊${chalk.blueBright('┊')}${chalk.yellow(`• SoIz1 (iZi)`)}
