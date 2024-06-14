@@ -1,10 +1,10 @@
 {
 "name": "KatashiBot-MD",
-"website": "https://github.com/KatashiFukushima",
+"website": "https://github.com/diaz1975",
 "description": "Super Bot WhatsApp",
-"repository": "https://github.com/KatashiFukushima/KatashiBot-MD",
+"repository": "https://github.com/diaz1975/DiazBot-Hosting",
 "logo": "https://telegra.ph/file/0d2e58ec6944872fea0f4.jpg",
-"success_url": "https://github.com/KatashiFukushima/KatashiBot-MD",
+"success_url": "https://github.com/diaz1975/DiazBot-Hosting",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
 "termux", "superbot", "multi-device", "md", "official", "javascript", "katashibot"],
