@@ -94,16 +94,16 @@ let menu = `
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
 ┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
-┃☭│ _ɪᴢɪ_ 𝅙
+┃☭│ _Diaz Mod_ 🥷🏻
 ┃☭│ シWɪʟsᴏɴシ︎
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
+┃☭│DIAZ BOT x DIAZ MOD
 ┃☭│ 
 ┃☭╰───────────────
 ╰═════════════════⊷
-╭════〘卐 _INFO KATASHI BOT_ 卐〙════⊷❍
+╭════〘卐 _INFO DIAZ BOT_ 卐〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ \`\`\`${horarioFecha}\`\`\`
 ┃☭│ ᩭ✎ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
