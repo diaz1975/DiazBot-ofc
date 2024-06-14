@@ -6,15 +6,15 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let pp = gataImg
-const cat = `🥷 𝑲𝒂𝒕𝒂𝒔𝒉𝒊𝑩𝒐𝒕-𝑴𝑫 🥷
+const cat = `🥷 DIAZBOT-V3 🥷
 * ${bot}
 
 *---------------------*
 
 *CENTER GATABOT*
-*katashifukushima23@gmail.com*
+*diazpatinoandresfelipe@gmail.com*
 
-𝙆𝘼𝙏𝘼𝙎𝙃𝙄 𝙁𝙐𝙆𝙐𝙎𝙃𝙄𝙈𝘼 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+DÍAZ MOD - ASISTENCIA
 *${asistencia}*
 
 *---------------------*
