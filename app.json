@@ -2,9 +2,9 @@
 "name": "DiazBot-v3",
 "website": "https://github.com/diaz1975",
 "description": "Super Bot WhatsApp",
-"repository": "https://github.com/diaz1975/DiazBot-Host",
+"repository": "https://github.com/diaz1975/DiazBot-ofc",
 "logo": "https://telegra.ph/file/0d2e58ec6944872fea0f4.jpg",
-"success_url": "https://github.com/diaz1975/DiazBot-Host",
+"success_url": "https://github.com/diaz1975/DiazBot-ofc",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
 "termux", "superbot", "multi-device", "md", "official", "javascript", "katashibot"],
