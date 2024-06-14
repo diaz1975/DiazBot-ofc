@@ -149,17 +149,17 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 > *_${formatDate}_*
 > \`${nombreLugar} - ${ciudad}\`
 
-╭═〘卐 _Katashi bot MD_ 卐〙═⊷❍
+╭═〘卐 _Diaz bot v3_ 卐〙═⊷❍
 ┃☭╭───────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
 ┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
-┃☭│ _ɪᴢɪ_ 𝅙
-┃☭│ シWɪʟsᴏɴシ︎
+┃☭│ _Diaz Mod_ 🥷🏻
+┃☭│ 
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
-┃☭│ᴋᴀᴛᴀsʜɪ ʙᴏᴛ x ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ
+┃☭│DIAZ BOT x DIAZ MOD
 ┃☭│ 
 ┃☭╰────────────
 ╰══════════════⊷
@@ -167,7 +167,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 卐     『  𝐌𝐄𝐍𝐔 𝐈𝐍𝐈𝐂𝐈𝐎  』    卐
 卐     ▼▼▼▼▼▼▼▼▼▼    卐
 
-╭〘卐 _INFO KATASHI BOT_ 卐〙⊷❍
+╭〘卐 _INFO DIAZ BOT_ 卐〙⊷❍
 ┃
 ┃☭│ ᩭ✎ *❰❰ ${lenguajeGB['smsTotalUsers']()} ❱❱* 
 ┃☭│ ᩭ✎ ➺ \`\`\`${Object.keys(global.db.data.users).length}\`\`\`
