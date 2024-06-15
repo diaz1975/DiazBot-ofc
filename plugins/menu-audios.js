@@ -79,7 +79,7 @@ let str = `
 ┊დ *${lenguajeGB['smsBotonM7']()} »* ${user.premiumTime > 0 ? '✅' : '❌'}
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
 
-╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+╭═══〘卐 _Diaz bot v3_ 卐〙═══⊷❍
 ┃☭│ *${lenguajeGB['smsTex16']()}* 🔊
 ┃☭│ ${lenguajeGB['smsTex17']()}
 ┃☭│ _Noche de paz_
@@ -215,7 +215,7 @@ let str = `
 ┃☭│ _Gol!_
 
 ╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-                    🥷 𝑲𝒂𝒕𝒂𝒔𝒉𝒊 𝑭𝒖𝒌𝒖𝒔𝒉𝒊𝒎𝒂 🥷
+                    🥷 Diaz Mod 🥷
          0:40 ━❍──────── -8:39
          ↻     ⊲  Ⅱ  ⊳     ↺
          VOLUMEN: ▁▂▃▄▅▆▇ 100%
