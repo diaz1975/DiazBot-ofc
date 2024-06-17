@@ -126,7 +126,7 @@ let menu = `
 ┃☭│ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ┃☭│ *Experiencia ➟* ${exp} ⚡
 ┃☭│ *Diamantes ➟* ${limit} 💎
-┃☭│ *KataCoins ➟* ${money} 🪙
+┃☭│ *DiazCoins ➟* ${money} 🪙
 ┃☭│ *Tokens ➟* ${joincount} 🀄`.trim()
       
 const buttonParamsJson = JSON.stringify({
@@ -135,16 +135,16 @@ description: "Infórmate por medios oficiales sobre KatashiBot",
 sections: [
 { title: "ℹ️ Información", highlight_label: "Popular",
 rows: [
-{ header: "✅ Redes", title: "🔓 Para: Todos", description: "Infórmate por medios oficiales sobre KatashiBot", id: usedPrefix + "cuentasgb" },
+{ header: "✅ Redes", title: "🔓 Para: Todos", description: "Infórmate por medios oficiales sobre DiazBot", id: usedPrefix + "cuentasgb" },
 { header: "📢 Grupos/Canales", title: "🔓 Para: Todos", description: "¡Te esperamos!", id: usedPrefix + "grupos" },
-{ header: "🎁 Donar", title: "🔓 Para: Todos", description: "KatashiBot se mantiene funcionando gracias a donaciones ¡tú también puedes sumarte apoyando el proyecto!", id: usedPrefix + 'donar' }
+{ header: "🎁 Donar", title: "🔓 Para: Todos", description: "DiazBot se mantiene funcionando gracias a donaciones ¡tú también puedes sumarte apoyando el proyecto!", id: usedPrefix + 'donar' }
 ]},
 { title: "🔖 Atajos", highlight_label: "Popular",
 rows: [
 { header: "🆕 Ser Bot (código)", title: "🔓 Para: Todos", description: "¡Conviértete en Bot con el método de código de 8 dígitos!", id: usedPrefix + "serbot --code" },
 { header: "🤖 Ser Bot (qr)", title: "🔓 Para: Todos", description: "Forma estándar de ser bot con código QR", id: usedPrefix + "serbot" },
 { header: "🚄 Velocidad", title: "🔓 Para: Todos", description: "Seleccione esto si desea saber el ping del Bot", id: usedPrefix + "ping" },
-{ header: "🀄 Estado", title: "🔓 Para: Todos", description: "Conoce en que estado se encuentra KatashiBot", id: usedPrefix + "estado" }
+{ header: "🀄 Estado", title: "🔓 Para: Todos", description: "Conoce en que estado se encuentra DiazBot", id: usedPrefix + "estado" }
 ]},
 { title: "Ⓜ️ Menú", highlight_label: "Popular",
 rows: [
@@ -162,11 +162,11 @@ buttonParamsJson
 }}
 let katashi = `𝗘𝗟 𝗠𝗘𝗡𝗨 𝗦𝗢𝗟𝗜𝗖𝗜𝗧𝗔𝗗𝗢 𝗘𝗦 𝗩𝗜𝗦𝗜𝗕𝗟𝗘 𝗨𝗡𝗜𝗖𝗔𝗠𝗘𝗡𝗧𝗘 𝗣𝗔𝗥𝗔 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦 𝗖𝗢𝗡 𝗗𝗜𝗦𝗣𝗢𝗦𝗜𝗧𝗜𝗩𝗢𝗦 𝗔𝗡𝗗𝗥𝗢𝗜𝗗.`.trim()
 const message = { messageContextInfo: { deviceListMetadata: {}, deviceListMetadataVersion: 2 }, interactiveMessage }
-await conn.sendFile(m.chat, pp, 'katashi.mp4', katashi, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🥷 𝗦𝘂𝗽𝗲𝗿 𝗞𝗮𝘁𝗮𝘀𝗵𝗶𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}})
+await conn.sendFile(m.chat, pp, 'katashi.mp4', katashi, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🥷 Super DiazBot-v3 - WhatsApp ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}})
 await conn.relayMessage(m.chat, { viewOnceMessage: { message } }, {})
       
 } else { 
-let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘卐 _Diaz Bot MD_ 卐〙═══⊷❍
 ┃ ${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} 💖*
 
 ┃☭│ \`\`\`${horarioFecha}\`\`\`
@@ -190,7 +190,7 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭│ _*Pasatiempo(s)*_ ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ┃☭│ _*Experiencia ➟* ${exp} ⚡_
 ┃☭│ _*Diamantes ➟* ${limit} 💎_
-┃☭│ _*KataCoins ➟* ${money} 🪙_
+┃☭│ _*DiazCoins ➟* ${money} 🪙_
 ┃☭│ _*Tokens ➟* ${joincount} 🀄_
 
 *╭═〘卐 🥷 OPCIONES DE MENU 🥷 〙═⊷❍*
@@ -249,8 +249,8 @@ let menu = `╭═══〘卐 _Katashi bot MD_ 卐〙═══⊷❍
 ┃☭│💎 _${lenguajeGB['smsTex20']()}_ 💎
 ┃☭│➺ _${usedPrefix}ownermenu_
 ┃☭│
-┃☭│✅ *_CUENTAS OFICIALES KATASHIBOT_* ✅
-┃☭│➺ _${usedPrefix}cuentaskatashibot | cuentaskb_
+┃☭│✅ *_CUENTAS OFICIALES DIAZBOT_* ✅
+┃☭│➺ _${usedPrefix}cuentasDiazbot | cuentasDb_
 ┃☭╰──────────────⬣
 *╰═════════════════⊷*`.trim()
 await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
