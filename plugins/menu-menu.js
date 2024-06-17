@@ -535,7 +535,7 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 ┃☭│ 
 ┃☭│ ➤ _${usedPrefix}fytendencia | fyranking_
 ┃☭╞════════════
-┃☭│ > 🏆 *TOP en KATASHIBOT* 🏆
+┃☭│ > 🏆 *TOP en DIAZBOT* 🏆
 ┃☭│
 ┃☭│ ➤ _${usedPrefix}top | lb | leaderboard_
 ┃☭╞════════════
@@ -592,7 +592,7 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 ┃☭│ ➤ _${usedPrefix}comunicargrupos *texto*_
 ┃☭│ ➤ _${usedPrefix}borrartmp | cleartmp_
 ┃☭│ ➤ _${usedPrefix}delexp *@tag*_
-┃☭│ ➤ _${usedPrefix}delkatacoins *@tag*_
+┃☭│ ➤ _${usedPrefix}deldiazcoins *@tag*_
 ┃☭│ ➤ _${usedPrefix}deldiamantes *@tag*_
 ┃☭│ ➤ _${usedPrefix}reiniciar | restart_
 ┃☭│ ➤ _${usedPrefix}ctualizar | update_
@@ -601,7 +601,7 @@ ${generateCommand(commandsConfig, usedPrefix).replace(/≡/g, '𖡡')}
 ┃☭│ ➤ _${usedPrefix}listapremium | listprem_
 ┃☭│ ➤ _${usedPrefix}añadirdiamantes *@tag cantidad*_
 ┃☭│ ➤ _${usedPrefix}añadirxp *@tag cantidad*_
-┃☭│ ➤ _${usedPrefix}añadirkatacoins *@tag cantidad*_
+┃☭│ ➤ _${usedPrefix}añadirdiazcoins *@tag cantidad*_
 ◟ ══════════⊷❍
 `.trim()
 //await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🥷 𝗦𝘂𝗽𝗲𝗿 𝗞𝗮𝘁𝗮𝘀𝗵𝗶𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu }}})
@@ -698,12 +698,12 @@ return formattedCommands.join('\n')
 // showPrefix: Usar true para que muestre el prefijo, de lo contrario usar false
 // Si algún objeto no se va usar dejar en false, menos el objeto "comando" ya que si es false no mostrará nada
 const commandsInfo = [
-{ comando: 'cuentaskatashibot , accounts', descripcion: false, contexto: 'Cuentas oficiales', showPrefix: true },
+{ comando: 'cuentasdiazbot , accounts', descripcion: false, contexto: 'Cuentas oficiales', showPrefix: true },
 { comando: 'grupos , linkgc', descripcion: false, contexto: 'Grupos oficiales', showPrefix: true },
 { comando: 'donar , donate', descripcion: false, contexto: 'Apoya al proyecto donando', showPrefix: true },
 { comando: 'listagrupos , grouplist', descripcion: false, contexto: 'Grupos en donde estoy', showPrefix: true },
 { comando: 'estado , status', descripcion: false, contexto: 'Información de mí estado', showPrefix: true },
-{ comando: 'infokatashi , infobot', descripcion: false, contexto: 'Información sobre el Bot', showPrefix: true },
+{ comando: 'infodiaz , infobot', descripcion: false, contexto: 'Información sobre el Bot', showPrefix: true },
 { comando: 'instalarbot , installbot', descripcion: false, contexto: 'Información y métodos de instalación', showPrefix: true },
 { comando: 'creador , owner', descripcion: false, contexto: 'Información sobre mí Creadora', showPrefix: true },
 { comando: 'velocidad , ping', descripcion: false, contexto: 'Verifica la velocidad de este Bot', showPrefix: true },
