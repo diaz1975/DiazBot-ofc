@@ -1,11 +1,11 @@
 let handler  = async (m, { conn, usedPrefix, command }) => {
 let picture = './media/menus/Menu1.jpg'
-let gata = `𝑰𝑵𝑺𝑻𝑨𝑳𝑨𝑪𝑰Ó𝑵 𝑫𝑬 𝑲𝑨𝑻𝑨𝑺𝑯𝑰𝑩𝑶𝑻 🥷
+let gata = `INSTALACIÓN DE DIAZBOT 🥷
 
 *━━━━━━━━━━━━━⬣*
 ✅ 𝗜𝗡𝗦𝗧𝗔𝗟𝗔𝗥 𝗘𝗡 𝗜𝗡𝗙𝗜𝗡𝗜𝗧𝗬
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-*𝑲𝒂𝒕𝒂𝒔𝒉𝒊𝑩𝒐𝒕 : 𝑰𝒏𝒇𝒊𝒏𝒊𝒕𝒚*
+*DiazBot : infinity*
 *_Tutorial en proceso..._*
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
 _DASHBOARD_
@@ -21,10 +21,10 @@ _https://store.panel-infinitywa.store_
 *━━━━━━━━━━━━━⬣*
 ✅ 𝙄𝙉𝙎𝙏𝘼𝙇𝘼𝙍 𝙀𝙉 𝙏𝙀𝙍𝙈𝙐𝙓
 *⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯ ⎯*
-*𝑲𝒂𝒕𝒂𝒔𝒉𝒊𝑩𝒐𝒕 : 𝑰𝒏𝒔𝒕𝒂𝒍𝒂𝒄𝒊ó𝒏 𝑨𝒖𝒕𝒐𝒎á𝒕𝒊𝒄𝒂*
+*DiazBot : Instalación Automática*
 *_https://www.youtube.com/shorts/ZLJYDUM6vSY_*
 termux-setup-storage
-apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/KatashiFukushima/KatashiBot-MD/master/katashi.sh | bash
+apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - https://raw.githubusercontent.com/diaz1975/DiazBot-ofc/master/katashi.sh | bash
 *━━━━━━━━━━━━━⬣*`
 await 
 //conn.sendFile(m.chat, gataImg, 'lp.jpg', gata, fkontak, false, { contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: accountsgb }}})}
