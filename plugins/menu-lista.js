@@ -250,7 +250,7 @@ let menu = `╭═══〘卐 _Diaz Bot MD_ 卐〙═══⊷❍
 ┃☭│➺ _${usedPrefix}ownermenu_
 ┃☭│
 ┃☭│✅ *_CUENTAS OFICIALES DIAZBOT_* ✅
-┃☭│➺ _${usedPrefix}cuentasDiazbot | cuentasDb_
+┃☭│➺ _${usedPrefix}cuentasdiazbot | cuentasdb_
 ┃☭╰──────────────⬣
 *╰═════════════════⊷*`.trim()
 await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
