@@ -6,10 +6,10 @@ let stafftxt = `💫 *EQUIPO STAFF*
 
 👑 『 *Propietario:* 』 👑
 
-• *KatashiFukushima*
+• *DiazMod*
 🔰 *Rol:* Propietario
 📲 *Número:* ${nomorown}
-🧲 *GitHub:* https://github.com/KatashiFukushima
+🧲 *GitHub:* https://github.com/diaz1975
 
 💫 *Colaboradores:*
 
