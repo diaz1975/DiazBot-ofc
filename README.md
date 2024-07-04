@@ -1,16 +1,16 @@
-# KatashiBot-MD
+# DÍAZ BOT-OFC
 > <b>🚀 VERSIÓN 3.0</b>
 
 <p align="center"> 
-<a href="https://github.com/KatashiFukushima"><img src="http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=B1F733&width=435&lines=KatashiBot-MD;Disfruta+del+bot.+%E2%9A%A1" height="90px"></a> 
+<a href="https://github.com/KatashiFukushima"><img https://ibb.co/b2CJMNh" height="90px"></a> 
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
+<img src="https://ibb.co/b2CJMNh"><br><br>
+<img src="[https://ibb.co/b2CJMNh]"><br><br>
 <p align="center">
 
 <p align="center">
-<img src="https://telegra.ph/file/86afc8b4881e2013cded4.jpg" alt="KatashiBot-MD" width="900"/>
+<img src="https://ibb.co/b2CJMNh" alt="DÍAZ BOT-OFC" width="900"/>
 </p>
 
 > 𝑴𝑼𝑪𝑯𝑨𝑺 𝑮𝑹𝑨𝑪𝑰𝑨𝑺 𝑷𝑶𝑹 𝑷𝑹𝑬𝑭𝑬𝑹𝑰𝑹𝑵𝑶𝑺 😎✨
