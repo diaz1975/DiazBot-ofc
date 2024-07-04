@@ -89,11 +89,10 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 if (!/web|desktop|unknown/gi.test(dispositivo)) {  
 let menu = `
-╭═══〘卐 _Diaz bot v3_ 卐〙═══⊷❍
+╭═══〘🥷🏻 _Diaz bot v3_ 🥷🏻〙═══⊷❍
 ┃☭╭──────────────
 ┃☭│ 〘 卐 _ᴏᴡɴᴇʀs ᴏғᴄ_ 卐 〙
 ┃☭│ 
-┃☭│ _ᴋᴀᴛᴀsʜɪ ғᴜᴋᴜsʜɪᴍᴀ 🥷🏻_
 ┃☭│ _Diaz Mod_ 🥷🏻
 ┃☭│
 ┃☭│    ║▌│█║▌│█║▌│█│║▌║
@@ -102,7 +101,7 @@ let menu = `
 ┃☭│ 
 ┃☭╰───────────────
 ╰═════════════════⊷
-╭════〘卐 _INFO DIAZ BOT_ 卐〙════⊷❍
+╭════〘🥷🏻 _INFO DIAZ BOT_ 🥷🏻〙════⊷❍
 ┃
 ┃☭│ ᩭ✎ \`\`\`${horarioFecha}\`\`\`
 ┃☭│ ᩭ✎ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
@@ -113,7 +112,7 @@ let menu = `
 ┃☭│ ᩭ✎ *${lenguajeGB['smsBanChats']()}* ➺ _${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}_ 
 ┃☭│ ᩭ✎ *${lenguajeGB['smsBanUsers']()}* ➺ _${Object.entries(global.db.data.users).filter(user => user[1].banned).length}_ ${(conn.user.jid == global.conn.user.jid ? '' : `\n⎔ *SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
-╭════〘卐 _INFO DEL USER_ 卐〙════⊷❍
+╭════〘🥷🏻 _INFO DEL USER_ 🥷🏻〙════⊷❍
 ┃
 ┃☭│ *Tipo de registro »* ${user.registered === true ? `_${user.registroC === true ? 'Registro Completo 🗂️' : 'Registro Rápido 📑'}_` : '❌ _Sin registro_'}
 ┃☭│ *Mi estado »* ${typeof user.miestado !== 'string' ? '❌ _' + usedPrefix + 'miestado_' : '_Me siento ' + user.miestado + '_'}
@@ -165,7 +164,7 @@ await conn.sendMessage(m.chat, {image: {url: "https://telegra.ph/file/b69c7ef6bc
 await conn.relayMessage(m.chat, { viewOnceMessage: { message } }, {})
       
 } else { 
-let menu = `╭═══〘卐 _Diaz Bot MD_ 卐〙═══⊷❍
+let menu = `╭═══〘🥷🏻 _Diaz Bot MD_ 🥷🏻〙═══⊷❍
 ┃ ${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} 💖*
 
 ┃☭│ \`\`\`${horarioFecha}\`\`\`
@@ -192,7 +191,7 @@ let menu = `╭═══〘卐 _Diaz Bot MD_ 卐〙═══⊷❍
 ┃☭│ _*DiazCoins ➟* ${money} 🪙_
 ┃☭│ _*Tokens ➟* ${joincount} 🀄_
 
-*╭═〘卐 🥷 OPCIONES DE MENU 🥷 〙═⊷❍*
+*╭═〘 🥷 OPCIONES DE MENU 🥷 〙═⊷❍*
 ┃☭╭──────────────
 ┃☭│Ⓜ️ _*MENÚ COMPLETO*_ Ⓜ️
 ┃☭│➺ _${usedPrefix}menucompleto | allmenu_
