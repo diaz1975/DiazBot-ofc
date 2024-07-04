@@ -161,7 +161,7 @@ buttonParamsJson
 }}
 let katashi = `𝗘𝗟 𝗠𝗘𝗡𝗨 𝗦𝗢𝗟𝗜𝗖𝗜𝗧𝗔𝗗𝗢 𝗘𝗦 𝗩𝗜𝗦𝗜𝗕𝗟𝗘 𝗨𝗡𝗜𝗖𝗔𝗠𝗘𝗡𝗧𝗘 𝗣𝗔𝗥𝗔 𝗨𝗦𝗨𝗔𝗥𝗜𝗢𝗦 𝗖𝗢𝗡 𝗗𝗜𝗦𝗣𝗢𝗦𝗜𝗧𝗜𝗩𝗢𝗦 𝗔𝗡𝗗𝗥𝗢𝗜𝗗.`.trim()
 const message = { messageContextInfo: { deviceListMetadata: {}, deviceListMetadataVersion: 2 }, interactiveMessage }
-await conn.sendFile(m.chat, pp, 'katashi.mp4', katashi, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 🥷 Super DiazBot-v3 - WhatsApp ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}})
+await conn.sendMessage(m.chat, {image: {url: "https://telegra.ph/file/b69c7ef6bc73fe3ae5431.png"}, caption: katashi, contextInfo: fakeChannel })
 await conn.relayMessage(m.chat, { viewOnceMessage: { message } }, {})
       
 } else { 
